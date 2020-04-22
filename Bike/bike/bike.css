@@ -1,0 +1,320 @@
+html {
+    background-image: linear-gradient( red, yellow);
+}
+
+body {
+    background-image: url("images/image-lion-background.png");
+    background-repeat: none;
+    /* background-position: top center; */
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-image: no-repeat;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px;
+    justify-content: space-between;
+}
+
+.logo:hover {
+    background-color: orange;
+}
+
+.mybutton:hover {
+    background-color: orange;
+}
+
+.conteiner {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main2 {
+    min-height: 300px;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div+div {
+    margin-top: 1em;
+}
+
+.formulary1 {
+    text-align: center;
+}
+
+.formulary2 {
+    text-align: center;
+}
+
+div.formulary3 {
+    display: flex;
+    justify-content: center;
+}
+
+.formulary3 label {
+    width: 90px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.formulary3 textarea :focus {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 10em;
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+
+textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 200px;
+    height: 100px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulary4 {
+    text-align: center;
+    padding-left: 20px;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    padding-bottom: 25px
+}
+
+.heroboxhalf img {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-radius: 12px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+.cards p {
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card1 {
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 30%;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.card2 {
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 30%;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.card3 {
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 30%;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.card1,
+.card2,
+.card3 {
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+.herobox1 {
+    flex: 2;
+    padding-right: 100px;
+}
+
+.herobox2 {
+    flex: 1;
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px gray;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.cards p {
+    font-size: 1.0rem;
+    color: white;
+    line-height: 1.2rem;
+    margin: 0px
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    margin: 0px;
+}
+
+.cards img {
+    margin-top: 20px;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 100px;
+    width: 30%;
+    padding-bottom: 10px;
+}
+
+.mybutton {
+    padding: 5px 1px;
+    margin: 0px 5px;
+    border-radius: 12px;
+    border-style: solid;
+    background-color: white;
+    border-color: white;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.199);
+    font-size: 24x;
+    color: red;
+    justify-content: space-between;
+    width: 150px;
+    height: 25px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+main a.mylink {
+    justify-content: space-between;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+
+/* .tbox :last-child {
+    font-size: .8rem
+} */
+
+.tbox p :last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 1px;
+    margin: 0px 5px;
+    border-radius: 12px;
+    border-style: solid;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.089);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.199);
+    font-size: 24x;
+    color: red;
+    justify-content: space-between;
+    width: 150px;
+    height: 25px;
+    margin: auto;
+    padding: auto;
+}
+
+ul li a:hover {
+    background-color: orange;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
