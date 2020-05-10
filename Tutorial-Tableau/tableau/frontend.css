@@ -92,6 +92,10 @@ main{
 .col p{
 
     font-size: 20px;
+    text-align: justify;
+    display: block;
+    text-indent: 50px ;
+
 }
 
 .col  ul li{
